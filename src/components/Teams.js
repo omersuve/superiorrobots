@@ -12,7 +12,7 @@ export default function Teams() {
                                 Meet the Team
                             </h1>
                             <p className="text-fontw text-sm md:text-2xl font-light">
-                                With over 100 years of combined experience, we've got a well-seasoned team at the helm.
+                                We have a well-experienced team in raising awareness.
                             </p>
                         </div>
                     </div>
@@ -27,10 +27,10 @@ export default function Teams() {
                                 </a>
                                 <div className="text-center mt-6">
                                     <h1 className="text-fonto text-3xl md:text-5xl mb-1">
-                                        Samet
+                                        Mind bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
-                                        Founder | Specialist
+                                        Founder
                                     </div>
                                     <div className="flex items-center justify-center duration-300">
                                         <a href="#" className="flex rounded-full hover:text-sky-600 h-10 w-10">
@@ -55,10 +55,10 @@ export default function Teams() {
                                 </a>
                                 <div className="text-center mt-6">
                                     <h1 className="text-fonto text-3xl md:text-5xl mb-1">
-                                        Samet
+                                        Emotion bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
-                                        Founder | Specialist
+                                        Styler
                                     </div>
                                     <div className="flex items-center justify-center duration-300">
                                         <a href="#" className="flex rounded-full  hover:text-sky-600 h-10 w-10">
@@ -83,10 +83,10 @@ export default function Teams() {
                                 </a>
                                 <div className="text-center mt-6">
                                     <h1 className="text-fonto text-3xl md:text-5xl mb-1">
-                                        Samet
+                                        Consciousness bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
-                                        Founder | Specialist
+                                        Developer
                                     </div>
                                     <div className="flex items-center justify-center duration-300">
                                         <a href="#" className="flex rounded-full hover:text-sky-600  h-10 w-10">
@@ -110,10 +110,10 @@ export default function Teams() {
                                 </a>
                                 <div className="text-center mt-6">
                                     <h1 className="text-fonto text-3xl md:text-5xl mb-1">
-                                        Samet
+                                        Brain bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
-                                        Founder | Specialist
+                                        Moderator
                                     </div>
                                     <div className="flex items-center justify-center duration-300">
                                         <a href="#" className="flex rounded-full hover:text-sky-600 h-10 w-10">
@@ -138,10 +138,10 @@ export default function Teams() {
                                 </a>
                                 <div className="text-center mt-6">
                                     <h1 className="text-fonto text-3xl md:text-5xl mb-1">
-                                        Samet
+                                        Intelligence bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
-                                        Founder | Specialist
+                                        Moderator
                                     </div>
                                     <div className="flex items-center justify-center duration-300">
                                         <a href="#" className="flex rounded-full hover:text-sky-600 h-10 w-10">
@@ -166,10 +166,10 @@ export default function Teams() {
                                 </a>
                                 <div className="text-center mt-6">
                                     <h1 className="text-fonto text-3xl md:text-5xl mb-1">
-                                        Samet
+                                        Memory bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
-                                        Founder | Specialist
+                                        Moderator
                                     </div>
                                     <div className="flex items-center justify-center duration-300">
                                         <a href="#" className="flex rounded-full hover:text-sky-600 h-10 w-10">

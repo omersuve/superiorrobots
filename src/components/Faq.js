@@ -7,30 +7,58 @@ const Faqs = () => {
   const [faqQuestions, setFaqQuestions] = useState([
     {
       id: 0,
-      name: "When will be the public mint release?",
+      name: "What is an NFT?",
       details:
-        "7th April at 5PM UTC for the whitelist. 8th April at 5PM UTC for the public.",
+        "NFTs are non-fungible tokens which are digital assets that links property to unique physical or digital items such as artwork, music or videos. These tokens can be used to represent ownership of unique items, as only one owner of an image can have one at a time, no one can change the ownership record or copy a new NFT.",
       isActive: false
     },
     {
       id: 1,
-      name: "How much a Cowbots cost at mint price and what will be the benefit to be Whitelist?",
+      name: "Where can I buy Superior Robots?",
       details:
-        "Mint price is set to 1 SOL and Whitelist members will have a x3 guarantee NFT to mint.",
+        "You can mint the Superior Robots ONLY on our website and please be careful for all kind of scams. We also provide secondary market right after the public mint done.",
       isActive: false
     },
     {
       id: 2,
-      name: "How can i buy Cowbots if I wasn’t able to mint one?",
+      name: "How much is the supply?",
       details:
-        "You will have access to buy on the secondary market : MagicEden and potentially other marketplace.",
+        "3,333 is the total supply of Superior Robots to be minted. The first 1,000 will be for our pre-sale via whitelist and the rest will be for public mint.",
       isActive: false
     },
     {
       id: 3,
-      name: "What extra utilities have the Legendaries NeoCowbots?",
+      name: "Will there be a pre-sale?",
       details:
-        "The Legendaries NeoCowbots will allow you to stack 30 $COWBOY during the first 30 days.",
+        "Yes, we'll conduct a pre-sale to reward early supporters with guaranteed access to mint up to 3 Superior Robots before the public sale. You must have a Superior Robots WL token to participate in pre-sale.",
+      isActive: false
+    },
+    {
+      id: 4,
+      name: "How do I get a Superior Robots WL token?",
+      details:
+        "The first 500 Discord members will automatically become OG. The remaining 500  WL tokens can be earned via giveaways, participating in our invite contest, or by levelling up as an active community member.",
+      isActive: false
+    },
+    {
+      id: 5,
+      name: "When is the mint date?",
+      details:
+        "TBD",
+      isActive: false
+    },
+    {
+      id: 6,
+      name: "What is the price of the Superior Robots?",
+      details:
+        "TBD",
+      isActive: false
+    },
+    {
+      id: 7,
+      name: "Who is the team behind Superior Robots?",
+      details:
+        "The Superior Robots consists of talented artists and devs who all want to build a great community in the Metaverse. Our team is passionate about engineering, game development, design and product marketing.",
       isActive: false
     }
   ]);

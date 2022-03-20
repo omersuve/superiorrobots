@@ -16,25 +16,28 @@ export default function Roadmap() {
 
 								<div className="single-roadmap ml-10">
 									<div className="title">
-										<h2>Phase 1 - Premint</h2>
+										<h2>Phase 1</h2>
 									</div>
 									<div className="number active">
 										<span>1</span>
 									</div>
 									<div className="text">
-										<h3>Public Safe</h3>
+										<h3>Preparing</h3>
 										<p className="">
-											During the weeks leading up to mint, we will continue to broaden our reach into not only the Solana ecosystem but also all branches of the NFT space.
+											During the weeks leading up to mint, we will continue to broaden our reach into not only the Solana ecosystem but also all branches of the NFT space
+											Holding creative contests to grant whitelist roles
 										</p>
-										<h3>Public Safe</h3>
-
+										<h3>Pre-Sale</h3>
 										<p className="">
-											Holding creative contests to grant whitelist roles to our Cowbot owners
+											Limited number of Superiors will be sold privately
 										</p>
-										<h3>Public Safe</h3>
-
+										<h3>Public Sale</h3>
 										<p className="">
-											Partnering with other NFT projects
+											Public mint is open for everyone and we're making this as a fair launch so everyone has a same chance for getting Superiors
+										</p>
+										<h3>Listing on Secondary Marketplace</h3>
+										<p className="">
+											We'll open the market after all the Superiors are minted
 										</p>
 
 									</div>
@@ -42,94 +45,77 @@ export default function Roadmap() {
 
 								<div className="single-roadmap ml-10">
 									<div className="title">
-										<h2>Phase 2 - Minting</h2>
+										<h2>Phase 2</h2>
 									</div>
 									<div className="number">
 										<span>2</span>
 									</div>
 									<div className="text">
-										<h3>Public Safe</h3>
-
+										<h3>AWR Token Release</h3>
 										<p className="">
-											Minting process : OG collection, public and whitelist launch
+											The holders will get daily $AWR token airdrop and the token can be used for the features
 										</p>
-										<h3>Public Safe</h3>
-
+										<h3>Legendary Auction</h3>
 										<p className="">
-											Rarity reveal through SOlrarity and our own website
+											We'll be hold an auction for limited supply for the legendary Superiors
 										</p>
+										<h3>Breeding</h3>
+										<p className="">
+											We also provide breeding system where you can breed your SUPERIOR ROBOTS to make SUPREME ROBOTS
+										</p>
+										<h3>Legendary Auction</h3>
+										<p className="">
+											We'll be hold an auction for a very limited supply for the legendary SUPREME ROBOTS
+										</p>
+
 									</div>
 								</div>
 
 								<div className="single-roadmap ml-10">
 									<div className="title">
-										<h2>Phase 3 - Postmint</h2>
+										<h2>Phase 3</h2>
 									</div>
 									<div className="number">
 										<span>3</span>
 									</div>
 									<div className="text">
-										<h3>Public Safe</h3>
+										<h3>DAO</h3>
 										<p className="">
-
-											Launching of the Cowbots collection
+											SupDao will be made for a great family of Robots
 										</p>
-										<h3>Public Safe</h3>
+										<h3>Supreme Robots Game</h3>
 										<p className="">
-
-											Secondary Market Sell
-										</p>
-										<h3>Public Safe</h3>
-										<p className="">
-
-											Legendary auction of the 3 Exclusive Cowbots
+											Experience to use your Supreme Robots as your hero in real combat, Supreme Robots will be making a Game on this phase for all the holders
 										</p>
 									</div>
 								</div>
 
 								<div className="single-roadmap ml-10">
 									<div className="title">
-										<h2>Phase 4 - Hold and Stake</h2>
+										<h2>Phase 4</h2>
 									</div>
 									<div className="number">
 										<span>4</span>
 									</div>
 									<div className="text">
-										<h3>Pre-Sale</h3>
-
+										<h3>Merch</h3>
 										<p className="">
-											$COWBOY per day: that is to say 15 $COWBOY instead of 10.
-										</p>
-										<h3>Pre-Sale</h3>
-
-										<p className="">
-											Fast hatching which allow you to get your NeoCowbots faster
-										</p>
-										<h3>Pre-Sale</h3>
-
-										<p className="">
-											600 $COWBOY : for the special hatch potion + you must have 2 Cowbots(not listed) on your wallet
+											Special merch coming to show off your Superiors with our exclusive merchandise
 										</p>
 									</div>
 								</div>
 
 								<div className="single-roadmap ml-10">
 									<div className="title">
-										<h2>Phase 5 - Breeding and P2E</h2>
+										<h2>Phase 5</h2>
 									</div>
 									<div className="number">
 										<span>5</span>
 									</div>
 									<div className="text">
-										<h3>Pre-Sale</h3>
-
+										<h3>Probably Nothing</h3>
 										<p className="">
-											Breeding of the Cowbots
-										</p>
-										<h3>Pre-Sale</h3>
-
-										<p className="">
-											P2E : Play to earn (Gamble to Earn??)
+											Probably Nothing...
 										</p>
 									</div>
 								</div>
