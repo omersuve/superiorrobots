@@ -90,7 +90,7 @@ export default function Navbar({ fixed }) {
                 </a>
               </li>
               <li className="nav-item ml-3">
-                <a className="text-white px-5 py-4 whitepaper" href="https://medium.com/">
+                <a className="text-white px-5 py-4 whitepaper" href="https://medium.com/@superiorrobots/awr-token-823261d8a71">
                   WhitePaper
                 </a>
               </li>
