@@ -7,58 +7,66 @@ const Faqs = () => {
   const [faqQuestions, setFaqQuestions] = useState([
     {
       id: 0,
-      name: "What is an NFT?",
+      name:
+        <p className="faqDetail-q">What is an NFT<span>?</span></p>,
       details:
-        "NFTs are non-fungible tokens which are digital assets that links property to unique physical or digital items such as artwork, music or videos. These tokens can be used to represent ownership of unique items, as only one owner of an image can have one at a time, no one can change the ownership record or copy a new NFT.",
+        <p className="faqDetail-a">NFTs are non<span>-</span>fungible tokens which are digital assets that links property to unique physical or digital items such as artwork<span>,</span> music or videos<span>.</span> These tokens can be used to represent ownership of unique items<span>,</span> as only one owner of an image can have one at a time<span>,</span> no one can change the ownership record or copy a new NFT<span>.</span></p>,
       isActive: false
     },
     {
       id: 1,
-      name: "Where can I buy Superior Robots?",
+      name:
+        <p className="faqDetail-q">Where can I buy Superior Robots<span>?</span></p>,
       details:
-        "You can mint the Superior Robots ONLY on our website and please be careful for all kind of scams. We also provide secondary market right after the public mint done.",
+        <p className="faqDetail-a">You can mint the Superior Robots ONLY on our website and please be careful for all kind of scams<span>.</span> We also provide secondary market right after the public mint done<span>.</span></p>,
       isActive: false
     },
     {
       id: 2,
-      name: "How much is the supply?",
+      name:
+        <p className="faqDetail-q">How much is the supply<span>?</span></p>,
       details:
-        "3,333 is the total supply of Superior Robots to be minted. The first 1,000 will be for our pre-sale via whitelist and the rest will be for public mint.",
+        <p className="faqDetail-a">3<span>,</span>333 is the total supply of Superior Robots to be minted<span>.</span> The first 1<span>,</span>000 will be for our pre<span>-</span>sale via whitelist and the rest will be for public mint<span>.</span></p>,
       isActive: false
     },
     {
       id: 3,
-      name: "Will there be a pre-sale?",
+      name:
+        <p className="faqDetail-q">Will there be a pre-sale<span>?</span></p>,
       details:
-        "Yes, we'll conduct a pre-sale to reward early supporters with guaranteed access to mint up to 3 Superior Robots before the public sale. You must have a Superior Robots WL token to participate in pre-sale.",
+        <p className="faqDetail-a">Yes<span>,</span> we<span>'</span>ll conduct a pre-sale to reward early supporters with guaranteed access to mint up to 3 Superior Robots before the public sale<span>.</span> You must have a Superior Robots WL token to participate in pre<span>-</span>sale<span>.</span></p>,
       isActive: false
     },
     {
       id: 4,
-      name: "How do I get a Superior Robots WL token?",
+      name:
+        <p className="faqDetail-q">How do I get a Superior Robots WL token<span>?</span></p>,
       details:
-        "The first 500 Discord members will automatically become OG. The remaining 500  WL tokens can be earned via giveaways, participating in our invite contest, or by levelling up as an active community member.",
+        <p className="faqDetail-a">The first 500 Discord members will automatically become OG<span>.</span> The remaining 500  WL tokens can be earned via giveaways<span>,</span> participating in our invite contest<span>,</span> or by levelling up as an active community member<span>.</span></p>,
       isActive: false
     },
     {
       id: 5,
-      name: "When is the mint date?",
+      name:
+        <p className="faqDetail-q">When is the mint date<span>?</span></p>,
       details:
-        "TBD",
+        <p className="faqDetail-a">TBD<span>.</span></p>,
       isActive: false
     },
     {
       id: 6,
-      name: "What is the price of the Superior Robots?",
+      name:
+        <p className="faqDetail-q">What is the price of the Superior Robots<span>?</span></p>,
       details:
-        "TBD",
+        <p className="faqDetail-a">TBD<span>.</span></p>,
       isActive: false
     },
     {
       id: 7,
-      name: "Who is the team behind Superior Robots?",
+      name:
+        <p className="faqDetail-q">Who is the team behind Superior Robots<span>?</span></p>,
       details:
-        "The Superior Robots consists of talented artists and devs who all want to build a great community in the Metaverse. Our team is passionate about engineering, game development, design and product marketing.",
+        <p className="faqDetail-a">The Superior Robots consists of talented artists and devs who all want to build a great community in the Metaverse<span>.</span> Our team is passionate about engineering<span>.</span> game development<span>.</span> design and product marketing<span>.</span></p>,
       isActive: false
     }
   ]);

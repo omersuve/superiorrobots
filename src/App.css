@@ -9,12 +9,11 @@
 }
 
 @font-face {
-  font-family: 'digital_techregular';
-  src: url('./assets/font-face/digitaltech-rm0k-webfont.woff2') format('woff2'),
-    url('./assets/font-face/digitaltech-rm0k-webfont.woff') format('woff');
+  font-family: "digital_techregular";
+  src: url("./assets/font-face/digitaltech-rm0k-webfont.woff2") format("woff2"),
+    url("./assets/font-face/digitaltech-rm0k-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
 
 body {
@@ -31,7 +30,7 @@ html {
 
 .dolar {
   font-weight: lighter;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Arial Narrow Bold", sans-serif;
 }
 
 .text-logo {
@@ -63,7 +62,7 @@ html {
 }
 
 .Main-header {
-  background-image: url('./assets/img/site-başı-arka-plan.jpg');
+  background-image: url("./assets/img/site-başı-arka-plan.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -90,7 +89,7 @@ nav ul {
 
 .section-title p {
   font-size: 16px;
-  color: #d1d1d1;
+  color: #991111;
 }
 
 .roadmap-section {
@@ -176,9 +175,8 @@ nav ul {
 
 .single-roadmap h3 {
   font-size: 25px;
-  color: #fff !important;
+  color: #845fe9 !important;
 }
-
 
 .single-roadmap .number {
   margin: 0 70px;
@@ -207,33 +205,31 @@ nav ul {
   color: #0086c4;
 }
 
-
 .single-roadmap .text {
   width: 50%;
 }
 
 .single-roadmap .text p {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   max-width: 600px;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0;
   color: #fff;
   line-height: 1.4;
-  opacity: .7;
+  opacity: 0.7;
   letter-spacing: 1.25px;
   user-select: none;
 }
 
 .single-roadmap .text:hover p {
-  transition: .5s;
+  transition: 0.5s;
   opacity: 1;
 }
 
 #roadmap {
   border-bottom: 2px solid #0086c4;
-
 }
 
 #roadmap h1 {
@@ -300,7 +296,7 @@ nav ul {
   align-items: center;
   border-radius: 25px;
   gap: 8px;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 .nav-item.twitter a:hover {
@@ -324,7 +320,7 @@ nav ul {
   align-items: center;
   border-radius: 25px;
   gap: 8px;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
 }
 
 .nav-item.discord a:hover {
@@ -339,7 +335,6 @@ nav ul {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1.5px;
-
 }
 
 .nav-item .whitepaper:hover {
@@ -360,9 +355,7 @@ nav ul {
 }
 
 #about {
-  
   padding: 5rem 0 20rem;
-
 }
 
 #about .text {
@@ -370,25 +363,32 @@ nav ul {
 }
 
 #about h1 {
-  color: #fff;
+  color: rgb(170, 161, 161);
   padding-bottom: 1rem;
+  font-family: unset;
 }
 
 #about h2 {
   font-size: 22px;
   line-height: 34px;
-}
-
-#about h2:hover {
-  transition: .4s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
 }
 
-#about>* {
-  font-family: digital_techregular, sans-serif;
-
+#about h2 p {
+  display: table-cell;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
+.imp {
+  color: #845fe9;
+}
+
+#about > * {
+  font-family: digital_techregular, sans-serif;
+}
 
 .hero {
   text-align: center;
@@ -399,11 +399,21 @@ nav ul {
   color: #fff !important;
   letter-spacing: 2px;
   font-family: digital_techregular, sans-serif;
-
+  margin-bottom: 20px;
 }
 
 .hero p {
-  opacity: .8;
+  opacity: 0.9;
+  color: #ffffff;
+  font-size: x-large;
+  letter-spacing: 2px;
+  text-shadow: 1px 0 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0),
+    0 -1px 0 #fff, 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+
+.hero span {
+  font-family: sans-serif;
 }
 
 #faq h1 {
@@ -418,14 +428,35 @@ nav ul {
   color: #00ffff;
 }
 
-.faq .copyright>span {
+.faq .copyright > span {
   color: #fff;
   font-family: Arial, Helvetica, sans-serif !important;
-
 }
 
-.faqDetail {
-  font-family: digital_techregular, sans-serif;
+.faqDetail-a {
+  font-family: digital_techregular, sans-serif, "Courier New", Courier,
+    monospace;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.faqDetail-a span {
+  font-family: sans-serif, "Courier New", Courier, monospace;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.faqDetail-q {
+  font-family: digital_techregular, sans-serif, "Courier New", Courier,
+    monospace;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.faqDetail-q span {
+  font-family: sans-serif, "Courier New", Courier, monospace;
+  color: #00ffff;
   font-size: 1.5rem;
   letter-spacing: 2px;
 }
@@ -438,7 +469,7 @@ nav ul {
 
 .mintNow:hover {
   background-color: #0086c4;
-  transition: .4s;
+  transition: 0.4s;
   opacity: 1;
   transform: translateY(-4px);
 }
@@ -507,7 +538,6 @@ a {
   overflow: hidden;
   position: relative;
   width: 100%;
-
 }
 
 .carousel__slide-item-img-link img {
@@ -570,7 +600,6 @@ a {
 
 .carousel__btn--prev {
   left: -10rem;
-
 }
 
 .carousel__btn--next {
@@ -588,12 +617,10 @@ a {
 
 .carousel__btn-arrow--left {
   transform: rotate(135deg);
-
 }
 
 .carousel__btn-arrow--right {
   transform: rotate(-45deg);
-
 }
 
 .carousel__dots {
@@ -614,13 +641,11 @@ a {
   outline: none;
   transform: scale(0.5);
   width: 2rem;
-
 }
 
 .carousel__dots .dot.active {
   background-color: black;
 }
-
 
 .team-item:hover {
   color: #fff;
@@ -678,7 +703,18 @@ a {
   border-bottom: 3px solid #006b9c;
   padding-bottom: 2rem;
   font-family: digital_techregular, sans-serif;
-  background-image: linear-gradient(to right, #000, rgba(0, 0, 0, 0.541), #006b9c, #00d4ff);
+  background-image: linear-gradient(
+    to right,
+    #000,
+    rgba(0, 0, 0, 0.541),
+    #006b9c,
+    #00d4ff
+  );
+}
+
+#tokenomics h1 h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #tokenomics h1:hover {
@@ -687,7 +723,6 @@ a {
 
 #tokenomics h1 span {
   font-family: digital_techregular, sans-serif;
-
 }
 
 #tokenomics .texts:last-child h1,
@@ -717,9 +752,7 @@ a {
 #teams p,
 #teams .subtext {
   font-family: digital_techregular, sans-serif;
-
 }
-
 
 .flip-box {
   background-color: transparent;
