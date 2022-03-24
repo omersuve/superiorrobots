@@ -18,7 +18,7 @@ export default function Navbar({ fixed }) {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <button className=" text-fonto leading-relaxed flex items-center mr-4 py-2 whitespace-nowrap uppercase logo" onClick={scrollToHome}>
-              <img src={logo} className="w-32" />
+              <img src={logo} className="w-24" />
               <p className="text-logo text-4xl">SUPERIOR ROBOTS</p>
             </button>
             <button
