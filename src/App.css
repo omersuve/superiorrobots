@@ -649,7 +649,6 @@ a {
 
 .team-item:hover {
   color: #fff;
-  transform: translateY(-20px);
 }
 
 .team-item:hover h1,
