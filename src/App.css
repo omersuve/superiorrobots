@@ -178,6 +178,14 @@ nav ul {
   color: #845fe9 !important;
 }
 
+.single-roadmap h3 span {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.single-roadmap p span {
+  color: #bb1d08;
+}
+
 .single-roadmap .number {
   margin: 0 70px;
   height: 95px;
@@ -716,8 +724,19 @@ a {
     "Lucida Sans", Arial, sans-serif;
 }
 
-#tokenomics h1:hover {
-  color: #fff;
+#tokenomics h1 {
+  font-size: xx-large;
+  color: #dccee2;
+}
+
+#tokenomics h1 span {
+  font-size: xx-large;
+  color: #dccee2;
+}
+
+#tokenomics h2 {
+  font-size: x-large;
+  color: #dccee2;
 }
 
 #tokenomics h1 span {
@@ -727,11 +746,6 @@ a {
 #tokenomics .texts:last-child h1,
 #tokenomics .texts:last-child h2 {
   color: #000;
-}
-
-#tokenomics .texts:hover h1,
-#tokenomics .texts:hover h2 {
-  color: #fff;
 }
 
 #tokenomics .token:hover img {

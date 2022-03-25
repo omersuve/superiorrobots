@@ -11,7 +11,9 @@ export default function Token() {
     <div className=" shadow-lg items-center justify-center rounded md:flex px-15">
       <div className="md:w-1/3 py-5 px-5 texts">
         <h1 className="text-fontw text-white text-2xl">WHAT IS $AWR?</h1>
-        <h2 className="text-fontw text-white text-sm px-10">$AWR is the FIRST Multi-Project Utility Token in Solana NFTs. Initially created by Cat Cartel, $AWR has since become the utility token for 7 projects currently on the Solana Network. Magic Mushies, Solana Money Boys, Bored Ape Social Club, Saibogu Corp, and Dino Kingz being the latest!</h2>
+        <h2 className="text-fontw text-white text-m px-10">
+          Awareness, created by self-taught formulas will be gained daily and used for ascension by the true owners of the Superior Robots.
+        </h2>
       </div>
       <div class="flip-box md:w-1/3">
         <div class="flip-box-inner">
@@ -25,7 +27,9 @@ export default function Token() {
       </div>
       <div className="md:w-1/3 py-5 px-5  texts">
         <h1 className="text-fontw text-white text-2xl">WHAT IS $AWR?</h1>
-        <h2 className="text-fontw text-white text-sm px-10">$AWR is the FIRST Multi-Project Utility Token in Solana NFTs. Initially created by Cat Cartel, $AWR has since become the utility token for 7 projects currently on the Solana Network. Magic Mushies, Solana Money Boys, Bored Ape Social Club, Saibogu Corp, and Dino Kingz being the latest!</h2>
+        <h2 className="text-fontw text-white text-m px-10">
+          Awareness, created by self-taught formulas will be gained daily and used for ascension by the true owners of the Superior Robots.
+        </h2>
       </div>
     </div>
   </div>)

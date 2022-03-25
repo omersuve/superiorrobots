@@ -53,15 +53,15 @@ export default function Roadmap() {
 									<div className="text">
 										<h3>AWR Token Release</h3>
 										<p className="">
-											The holders will get daily $AWR token airdrop and the token can be used for the features
+											The holders will get daily <span>$AWR</span> token airdrop and the token can be used for the features
 										</p>
 										<h3>Legendary Auction</h3>
 										<p className="">
 											We'll be hold an auction for limited supply for the legendary Superiors
 										</p>
-										<h3>Breeding</h3>
+										<h3>Breeding <span>-</span> Collection V2</h3>
 										<p className="">
-											We also provide breeding system where you can breed your SUPERIOR ROBOTS to make SUPREME ROBOTS
+											We also provide breeding system where you can breed your <span>SUPERIOR ROBOTS</span> to make <span>SUPREME ROBOTS</span>
 										</p>
 										<h3>Legendary Auction</h3>
 										<p className="">
@@ -81,7 +81,7 @@ export default function Roadmap() {
 									<div className="text">
 										<h3>DAO</h3>
 										<p className="">
-											SupDao will be made for a great family of Robots
+											SupDao will be established for a great family of Robots
 										</p>
 										<h3>Supreme Robots Game</h3>
 										<p className="">
