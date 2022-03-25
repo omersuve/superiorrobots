@@ -78,19 +78,19 @@ export default function Navbar({ fixed }) {
                 </a>
               </li>
               <li className="nav-item twitter">
-                <a href="https://twitter.com/home">
+                <a href="https://twitter.com/home" target="_blank">
                   <BsTwitter />
                   <span>Twitter</span>
                 </a>
               </li>
               <li className="nav-item discord">
-                <a href="https://twitter.com/home">
+                <a href="https://twitter.com/home" target="_blank">
                   <FaDiscord />
                   <span>Discord</span>
                 </a>
               </li>
               <li className="nav-item ml-3">
-                <a className="text-white px-5 py-4 whitepaper" href="https://superiorrobots.medium.com/">
+                <a className="text-white px-5 py-4 whitepaper" href="https://superiorrobots.medium.com/" target="_blank">
                   WhitePaper
                 </a>
               </li>

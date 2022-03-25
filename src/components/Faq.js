@@ -123,10 +123,10 @@ const Faqs = () => {
       <div className="py-10 mt-20 mx-auto text-center">
         <h1 className="text-center text-fonto text-2xl md:text-4xl pb-5">FOLLOW US!</h1>
         <div className="flex text-center justify-center text-center text-white items-center mx-auto">
-          <a className="pr-5 hover:text-cyan-400" href="">
+          <a className="pr-5 hover:text-cyan-400" href="https://twitter.com/home" target="_blank">
             <FaTwitter size={"32px"} />
           </a>
-          <a className="hover:text-orange-400" href="">
+          <a className="hover:text-orange-400" href="https://www.instagram.com/" target="_blank">
             <FaInstagram size={"32px"} />
           </a>
           <a className="pl-5 hover:text-sky-600" href="">
