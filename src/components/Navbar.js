@@ -9,7 +9,6 @@ const scrollToHome = () => {
 }
 
 
-
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -75,6 +74,14 @@ export default function Navbar({ fixed }) {
                   href="#faq"
                 >
                   <span>Faq</span>
+                </a>
+              </li>
+              <li className="nav-item pt-2 md:pt-0">
+                <a
+                  className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
+                  href="#game"
+                >
+                  <span>P2E</span>
                 </a>
               </li>
               <li className="nav-item twitter">

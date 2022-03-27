@@ -66,7 +66,7 @@ const Faqs = () => {
       name:
         <p className="faqDetail-q">Who is the team behind Superior Robots<span>?</span></p>,
       details:
-        <p className="faqDetail-a">The Superior Robots consists of talented artists and devs who all want to build a great community in the Metaverse<span>.</span> Our team is passionate about engineering<span>.</span> game development<span>.</span> design and product marketing<span>.</span></p>,
+        <p className="faqDetail-a">The Superior Robots consists of talented artists and devs who all want to build a great community in the Metaverse<span>.</span> Our team is passionate about engineering<span>,</span> game development and design<span>.</span></p>,
       isActive: false
     }
   ]);
