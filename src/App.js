@@ -9,6 +9,7 @@ import Roadmap from './components/Roadmap';
 import Teams from './components/Teams';
 import Token from './components/Token';
 import Faq from './components/Faq';
+import Game from './components/Game';
 
 function App() {
   return (
