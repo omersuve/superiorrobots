@@ -13,23 +13,25 @@ import Game from './components/Game';
 
 function App() {
   return (
-    <div className="App">
-      <header className='Main-header'>
-        <Navbar />
-        <Hero />
-      </header>
-      <About />
-      <Roadmap />
-      <Gallery />
-      <Token />
-      <Teams />
-      <Faq />
-      <BrowserRouter>
-        <Routes>
-          <Route path='*' element={<div></div>}></Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <div className="App">
+            <header className='Main-header'>
+              <Navbar />
+              <Hero />
+            </header>
+            <About />
+            <Roadmap />
+            <Gallery />
+            <Token />
+            <Teams />
+            <Faq />
+          </div>
+        } />
+        <Route path="/game" element={<Game />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -398,6 +398,10 @@ nav ul {
   font-family: digital_techregular, sans-serif;
 }
 
+.game {
+  font-size: xx-large;
+}
+
 .hero {
   text-align: center;
   margin-top: 5rem;
