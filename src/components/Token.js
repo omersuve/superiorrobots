@@ -29,7 +29,7 @@ export default function Token() {
         <h1 className="text-fontw text-white text-2xl">Earn and Use</h1>
         <h2 className="text-fontw text-white text-m px-10">
 
-          $AWR token will be given to their owners every day, and the number of coins earned will increase rapidly week by week as follows:<br></br>First week 10 $AWR, second week 20 $AWR, third week 40 $AWR, fourth week 70 $AWR...
+          $AWR token will be given to their owners <span>every day</span>, and the number of coins earned will increase rapidly <span>week by week</span> as follows:<br></br>First week 10 $AWR, second week 20 $AWR, third week 40 $AWR, fourth week 70 $AWR...
           So, Hold on!
 
         </h2>

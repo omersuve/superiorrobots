@@ -183,7 +183,7 @@ nav ul {
 }
 
 .single-roadmap p span {
-  color: #bb1d08;
+  color: #9b1908;
 }
 
 .single-roadmap .number {
@@ -226,7 +226,7 @@ nav ul {
   margin: 0;
   color: #fff;
   line-height: 1.4;
-  opacity: 0.7;
+  opacity: 0.9;
   letter-spacing: 1.25px;
   user-select: none;
 }
@@ -745,6 +745,10 @@ a {
 
 #tokenomics h1 span {
   font-family: digital_techregular, sans-serif;
+}
+
+#tokenomics h2 span {
+  color: #9b1908;
 }
 
 #tokenomics .texts:last-child h1,
