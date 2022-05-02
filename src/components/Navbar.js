@@ -80,7 +80,6 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                   href="/game"
-                  target="_blank"
                 >
                   <span>P2E</span>
                 </a>
