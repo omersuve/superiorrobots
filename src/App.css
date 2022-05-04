@@ -807,3 +807,10 @@ a {
 .flip-box-back {
   transform: rotateY(180deg);
 }
+
+.WalletPage {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

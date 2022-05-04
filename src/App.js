@@ -10,6 +10,7 @@ import Teams from './components/Teams';
 import Token from './components/Token';
 import Faq from './components/Faq';
 import Game from './components/Game';
+import WalletPage from './WalletPage.tsx';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
             <Faq />
           </div>
         } />
-        <Route path="/game" element={<Game />} />
+        <Route path="/game" element={<WalletPage />} />
       </Routes>
     </BrowserRouter>
   );
