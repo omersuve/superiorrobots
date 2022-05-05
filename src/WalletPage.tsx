@@ -8,8 +8,12 @@ import {
     SolflareWalletAdapter,
     TorusWalletAdapter,
 } from '@solana/wallet-adapter-wallets';
-import { clusterApiUrl } from '@solana/web3.js';
+import { Connection, clusterApiUrl, LAMPORTS_PER_SOL } from '@solana/web3.js';
+import { getParsedNftAccountsByOwner, isValidSolanaAddress, createConnectionConfig } from '@nfteyez/sol-rayz';
+import type { Options } from "@nfteyez/sol-rayz";
+import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import React, { FC, ReactNode, useMemo } from 'react';
+import EnterPubkey from './EnterPubkey';
 
 require('./App.css');
 require('@solana/wallet-adapter-react-ui/styles.css');
@@ -43,6 +47,7 @@ const Context: FC<{ children: ReactNode }> = ({ children }) => {
         ],
         [network]
     );
+    
 
     return (
         <ConnectionProvider endpoint={endpoint}>
@@ -56,6 +61,7 @@ const Context: FC<{ children: ReactNode }> = ({ children }) => {
 const Content: FC = () => {
     return (
         <div className="WalletPage">
+            <EnterPubkey />
             <WalletMultiButton />
         </div>
     );
