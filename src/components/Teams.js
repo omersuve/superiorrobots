@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function Teams() {
     return (<div className="flex items-center justify-center min-h-screen bg-all py-20" name="teams" id="teams">
-        <div className="flex flex-col">
+        <div className="teams-margin flex flex-col">
             <div className="flex flex-col mt-8">
                 <div className="container max-w-7xl px-4">
                     <div className="flex flex-wrap justify-center text-center mb-24">
