@@ -179,7 +179,7 @@ nav ul {
 }
 
 .single-roadmap h3 span {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .single-roadmap p span {
@@ -369,6 +369,7 @@ nav ul {
 #about .img {
   margin-top: 10rem;
   margin-bottom: 10rem;
+  width: 80%;
 }
 
 #about .text {
@@ -408,8 +409,17 @@ nav ul {
 }
 
 .hero {
-  text-align: center;
   margin-top: 5rem;
+}
+
+.hero-img {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: relative;
+  left: -160px;
 }
 
 .hero h1 {
@@ -482,6 +492,7 @@ nav ul {
   border: 2px solid #0086c4;
   color: #fff;
   font-weight: 600;
+  width: 40%;
 }
 
 .mintNow:hover {
@@ -781,7 +792,8 @@ a {
 }
 
 #teams .teams-margin {
-  margin: 8rem;
+  margin-top: 14rem;
+  margin-bottom: 10rem;
 }
 
 .flip-box {
