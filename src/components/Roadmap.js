@@ -54,7 +54,7 @@ export default function Roadmap() {
 										<span>2</span>
 									</div>
 									<div className="text">
-										<h3>AWR Token Release</h3>
+										<h3><span>$</span>AWR Token Release</h3>
 										<p className="">
 											The holders will get daily <span>$AWR</span> token airdrop and the token can be used for the features
 										</p>
@@ -63,8 +63,6 @@ export default function Roadmap() {
 										<p className="">
 											We'll be hold an auction for limited supply for the legendary Superiors
 										</p>
-
-
 									</div>
 								</div>
 

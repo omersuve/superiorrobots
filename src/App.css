@@ -179,7 +179,7 @@ nav ul {
 }
 
 .single-roadmap h3 span {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .single-roadmap p span {
@@ -364,6 +364,11 @@ nav ul {
 
 #about {
   padding: 5rem 0 20rem;
+}
+
+#about .img {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 #about .text {
@@ -773,6 +778,10 @@ a {
 #teams p,
 #teams .subtext {
   font-family: digital_techregular, sans-serif;
+}
+
+#teams .teams-margin {
+  margin: 8rem;
 }
 
 .flip-box {

@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className="bg-all bg-sett flex justify-between items-center mx-auto text-center py-5 px-5 pt-5 p-5 mt-20" name="about" id="about">
             <div className='ml-20'>
-                <img src={icon} />
+                <img className='img' src={icon} />
             </div>
             <div className='text ml-auto'>
                 <h1 className="text-4xl md:text-8xl text-fonto text-center">STORY</h1>
