@@ -26,7 +26,7 @@ const Faqs = () => {
       name:
         <p className="faqDetail-q">How much is the supply<span>?</span></p>,
       details:
-        <p className="faqDetail-a">3<span>,</span>333 is the total supply of Superior Robots to be minted<span>.</span> The first 1<span>,</span>000 will be for our pre<span>-</span>sale via whitelist and the rest will be for public mint<span>.</span></p>,
+        <p className="faqDetail-a">5<span>,</span>555 is the total supply of Superior Robots to be minted<span>.</span> The first 1<span>,</span>000 will be for our pre<span>-</span>sale via whitelist and the rest will be for public mint<span>.</span></p>,
       isActive: false
     },
     {
