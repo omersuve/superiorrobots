@@ -27,14 +27,17 @@ export default function Roadmap() {
 											During the weeks leading up to mint, we will continue to broaden our reach into not only the Solana ecosystem but also all branches of the NFT space
 											Holding creative contests to grant whitelist roles
 										</p>
+										<br />
 										<h3>Pre-Sale</h3>
 										<p className="">
 											Limited number of Superiors will be sold privately
 										</p>
+										<br />
 										<h3>Public Sale</h3>
 										<p className="">
 											Public mint is open for everyone and we're making this as a fair launch so everyone has a same chance for getting Superiors
 										</p>
+										<br />
 										<h3>Listing on Secondary Marketplace</h3>
 										<p className="">
 											We'll open the market after all the Superiors are minted
@@ -55,18 +58,12 @@ export default function Roadmap() {
 										<p className="">
 											The holders will get daily <span>$AWR</span> token airdrop and the token can be used for the features
 										</p>
+										<br />
 										<h3>Legendary Auction</h3>
 										<p className="">
 											We'll be hold an auction for limited supply for the legendary Superiors
 										</p>
-										<h3>Breeding <span>-</span> Collection V2</h3>
-										<p className="">
-											We also provide breeding system where you can breed your <span>SUPERIOR ROBOTS</span> to make <span>SUPREME ROBOTS</span>
-										</p>
-										<h3>Legendary Auction</h3>
-										<p className="">
-											We'll be hold an auction for a very limited supply for the legendary SUPREME ROBOTS
-										</p>
+
 
 									</div>
 								</div>
@@ -83,10 +80,12 @@ export default function Roadmap() {
 										<p className="">
 											SupDao will be established for a great family of Robots
 										</p>
-										<h3>Supreme Robots Game</h3>
+										<br />
+										<h3>Merch</h3>
 										<p className="">
-											Experience to use your Supreme Robots as your hero in real combat, Supreme Robots will be making a Game on this phase for all the holders
+											Special merch coming to show off your Superiors with our exclusive merchandise
 										</p>
+
 									</div>
 								</div>
 
@@ -96,21 +95,6 @@ export default function Roadmap() {
 									</div>
 									<div className="number">
 										<span>4</span>
-									</div>
-									<div className="text">
-										<h3>Merch</h3>
-										<p className="">
-											Special merch coming to show off your Superiors with our exclusive merchandise
-										</p>
-									</div>
-								</div>
-
-								<div className="single-roadmap ml-10">
-									<div className="title">
-										<h2>Phase 5</h2>
-									</div>
-									<div className="number">
-										<span>5</span>
 									</div>
 									<div className="text">
 										<h3>Probably Nothing</h3>
