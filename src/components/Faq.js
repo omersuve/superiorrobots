@@ -93,7 +93,6 @@ const Faqs = () => {
               <p className="mb-2 text-white faqDetail">{faq.details}</p>
             </div>
           </div>
-
         </div>
       </div>
     </div>);
