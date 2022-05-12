@@ -72,20 +72,32 @@ const Faqs = () => {
   ]);
 
   const [accordionVisiblily, setAccordionVisiblily] = useState(false);
-  const changeIcon = accordionVisiblily ? <FiX size={"40px"} /> : <FiPlus size={"40px"} />;
-  const toggleAccordionVisibility = () => {
-    setAccordionVisiblily(prevVisibility => !prevVisibility);
+  const [activeList, setActiveList] = useState([])
+  const toggleAccordionVisibility = (e, id) => {
+    const clicked = faqQuestions.filter((faq) => faq.id === id)[0]
+    if (!activeList.includes(clicked.id)) {
+      setActiveList(
+        [...activeList, clicked.id]
+      )
+    } else {
+      setActiveList(
+        (active) => active.filter((activeID) => activeID !== clicked.id)
+      )
+    }
+    clicked.isActive = !clicked.isActive
+
   };
+  console.log(faqQuestions)
   const faqTab = faqQuestions.map((faq) => {
     const detailsDisplay = faq.isActive ? "block" : "hidden";
 
     return (<div className="w-full mx-auto container justify-center items-center p-8">
       <div className="items-center justify-center mx-auto">
-        <div className="faq mt-2" key={faqQuestions.id} onClick={() => filterAccordion(faq.id)}>
+        <div className="faq mt-2" key={faqQuestions.id} >
           <h2>
-            <button type="button" class="flex items-center justify-between  w-full text-fontw text-left text-white">
+            <button type="button" class="flex items-center justify-between  w-full text-fontw text-left text-white" onClick={(e) => toggleAccordionVisibility(e, faq.id)}>
               <span>{faq.name}</span>
-              <i className="text-white" onClick={() => toggleAccordionVisibility(faq.id)}>{changeIcon}</i>
+              <i className="text-white" >{activeList.includes(faq.id) ? <FiX size={"40px"} /> : <FiPlus size={"40px"} />}</i>
             </button>
           </h2>
           <div>
