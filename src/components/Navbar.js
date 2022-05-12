@@ -79,7 +79,6 @@ export default function Navbar({ fixed }) {
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="/"
                 >
                   <span>P2E</span>
                 </a>
