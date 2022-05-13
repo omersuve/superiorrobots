@@ -8,7 +8,7 @@ import avatar2 from "../assets/img/shadow.jpeg"
 export default function Gallery() {
 
   return (
-    <div className="bg-all bg-sett gallery">
+    <div className="gallery">
       <Slider
         autoplay={true}
         className="slider"

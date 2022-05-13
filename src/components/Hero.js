@@ -4,27 +4,27 @@ import icon from '../assets/img/shadow.jpeg'
 export default function Hero() {
 	return (
 		<div className="flex justify-between items-center mx-auto py-5 px-5 pt-5 p-5">
-			<div className="w-full mx-auto justify-center items-center flex-col py-15 pt-5 p-20 hero">
+			<div className="w-full mx-auto justify-center items-center flex-col py-15 pt-5 p-20 ml-20 hero">
 				<div className="">
-					<h1 className="text-4xl md:text-7xl text-black ">Superior Robots</h1>
-					<p className="text-xl text-base mt-4 md:px-25">
+					<h1 className="md:text-5xl text-black ">Superior Robots</h1>
+					<p className="text-base mt-4 md:px-25">
 
 						Prepare for our Superior Robots NFT collection<br></br>
 
 					</p>
-					<p className="text-xl text-base mt-4 md:px-25">
+					<p className="text-base mt-4 md:px-25">
 
 						Artificial intelligence technology has taken off<br></br>
 
 
 					</p>
-					<p className="text-xl text-base mt-4 md:px-25">
+					<p className="text-base mt-4 md:px-25">
 
 						The exploited robots are now gaining consciousness<br></br>
 
 
 					</p>
-					<p className="text-xl text-base mt-4 md:px-25">
+					<p className="text-base mt-4 md:px-25">
 
 						Superior Robots will be with you very soon < br ></br >
 

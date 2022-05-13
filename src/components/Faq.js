@@ -125,7 +125,7 @@ const Faqs = () => {
   };
 
   return (
-    <div className="bg-all bg-sett" name="faq" id="faq">
+    <div className="" name="faq" id="faq">
       <h1 className="text-6xl md:text-8xl text-fonto text-center py-5">
         FAQ
       </h1>
