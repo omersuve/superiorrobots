@@ -25,7 +25,7 @@ export default function Navbar({ fixed }) {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <FaBars size={"28px"} />
+              <FaBars size={"28px"} className="text-white" />
             </button>
           </div>
           <div
