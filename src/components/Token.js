@@ -4,7 +4,7 @@ import token from "../assets/img/token.png"
 
 export default function Token() {
   return (<div className="justify-center items-center mx-auto text-center mt-10" name="tokenomics" id="tokenomics">
-    <h1 className="text-7xl md:text-7xl text-fonto text-center mt-10 mb-5">
+    <h1 className="token-title">
       $<span>AWR</span>
     </h1>
 
