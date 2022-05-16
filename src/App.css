@@ -674,8 +674,13 @@ a {
   color: #fff !important;
 }
 
+.gallery {
+  margin: 10%;
+}
+
 .gallery img {
-  width: 300px;
+  width: 250px;
+  margin: 12%;
 }
 
 .gallery .slider {

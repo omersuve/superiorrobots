@@ -13,8 +13,8 @@ export default function Gallery() {
         autoplay={true}
         className="slider"
         slidesToShow={4}
-        autoplaySpeed={2000}
-        arrows={false}
+        autoplaySpeed={1500}
+        arrows={true}
         dots={true}
       >
         <div>
