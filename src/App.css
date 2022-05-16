@@ -17,14 +17,16 @@
 }
 
 body {
-  //background-image: url("./assets/img/background-img.png");
+  /*background-image: url("./assets/img/background-img.png");*/
   background-color: #000;
   font-family: digital_techregular, sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
   /* background-color: #352512; */
 }
 
@@ -34,9 +36,11 @@ html {
 }
 
 .text-logo {
-  display: block;
+  display: inline;
   font-family: digital_techregular, sans-serif;
   letter-spacing: 2px;
+  color: #fff;
+  max-width: 120px;
 }
 
 .text-fonto {
@@ -242,7 +246,7 @@ nav ul {
   color: #fff;
   text-shadow: 5px 5px 20px #0086c4;
   padding-left: 12rem;
-  border-bottom: 2px solid #0086c4;
+  border-bottom: 2px solid #fff;
   background-color: rgba(0, 0, 0, 0.356);
 }
 
@@ -346,10 +350,6 @@ nav ul {
   font-weight: bold;
 }
 
-.text-logo {
-  color: #fff;
-  max-width: 120px;
-}
 
 #about {
   padding: 5rem 5rem 20rem;
@@ -397,18 +397,27 @@ nav ul {
   font-size: xx-large;
 }
 
-.hero {
+.hero{
+  display:flex;
+  height:400px;
+  width:100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-text {
   margin-top: 7rem;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
 .hero-img {
   border-radius: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  position: relative;
-  left: -180px;
   bottom: -15px;
 }
 
@@ -417,6 +426,7 @@ nav ul {
   letter-spacing: 2px;
   font-family: digital_techregular, sans-serif;
   margin-bottom: 20px;
+  font-size: xx-large;
 }
 
 .hero p {
@@ -482,7 +492,8 @@ nav ul {
   border: 2px solid #0086c4;
   color: #fff;
   font-weight: 600;
-  width: 40%;
+  width: 180px;
+  margin-top: 10%;
 }
 
 .mintNow:hover {
@@ -829,4 +840,41 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px){
+   .text-logo {
+    display: block;
+    font-family: digital_techregular, sans-serif;
+    letter-spacing: 2px;
+    font-size: medium;
+  } 
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img {
+    width:80%;
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 1224px){
+  .text-logo{
+    display: none;
+  }
 }

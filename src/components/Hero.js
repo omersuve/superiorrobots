@@ -3,8 +3,8 @@ import icon from '../assets/img/shadow.jpeg'
 
 export default function Hero() {
 	return (
-		<div className="flex justify-between items-center mx-auto py-5 px-5 pt-5 p-5">
-			<div className="w-full mx-auto justify-center items-center flex-col py-15 pt-5 p-20 ml-20 hero">
+		<div className="hero">
+			<div className="hero-text">
 				<div className="">
 					<h1 className="md:text-5xl text-black ">Superior Robots</h1>
 					<p className="text-base mt-4 md:px-25">
@@ -34,8 +34,8 @@ export default function Hero() {
 					<button className="py-3 px-9 rounded-3xl text-lg tracking-wider mt-3 mintNow">Mint Now</button>
 				</div>
 			</div >
-			<div>
-				<img className='hero-img' src={icon} />
+			<div className='hero-img'>
+				<img class='w-80' src={icon} />
 			</div>
 		</div>
 	)
