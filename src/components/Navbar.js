@@ -2,6 +2,7 @@ import React from "react";
 import { FaBars, FaDiscord } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import logo from '../assets/img/logo.png'
+import logo2 from '../assets/img/logo2.png'
 
 
 const scrollToHome = () => {
@@ -14,11 +15,11 @@ export default function Navbar({ fixed }) {
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <button className=" text-fonto leading-relaxed flex items-center mr-4 py-2 whitespace-nowrap uppercase logo" onClick={scrollToHome}>
-              <img src={logo} className="w-14" />
-              <p className="text-logo text-3xl">SUPERIOR ROBOTS</p>
+            <button className="mb-1 leading-relaxed flex items-center py-1 whitespace-nowrap uppercase logo" onClick={scrollToHome}>
+              <img src={logo2} className="w-20" />
+              <p className="text-logo text-2xl">SUPERIOR ROBOTS</p>
             </button>
             <button
               className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -39,7 +40,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
                   href="#about"
                 >
-                  <span>Story</span>
+                  <span>Origin</span>
                 </a>
               </li>
 
@@ -48,7 +49,7 @@ export default function Navbar({ fixed }) {
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                   href="#roadmap"
                 >
-                  <span>Roadmap</span>
+                  <span>Blueprint</span>
                 </a>
               </li>
               <li className="nav-item pt-2 md:pt-0">
@@ -80,7 +81,7 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                 >
-                  <span>P2E</span>
+                  <span className="cursor-display">SUPR</span>
                 </a>
               </li>
               <li className="nav-item twitter">

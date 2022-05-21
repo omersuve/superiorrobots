@@ -17,8 +17,7 @@ export default function Teams() {
                         </div>
                     </div>
 
-                    <div className="flex flex-wrap">
-
+                    <div className="flex flex-wrap team-logos">
                         <div className="w-full md:w-4/12 lg:w-4/12 mb-6 px-6 sm:px-6 lg:px-4">
                             <div className="flex flex-col team-item">
                                 <a>
@@ -26,7 +25,7 @@ export default function Teams() {
                                         src="https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80" />
                                 </a>
                                 <div className="text-center mt-6">
-                                    <h1 className="text-fonto text-3xl md:text-5xl mb-1">
+                                    <h1 className="text-fonto text-xl md:text-4xl mb-1">
                                         Mind bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
@@ -54,7 +53,7 @@ export default function Teams() {
                                         src="https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80" />
                                 </a>
                                 <div className="text-center mt-6">
-                                    <h1 className="text-fonto text-3xl md:text-5xl mb-1">
+                                    <h1 className="text-fonto text-xl md:text-4xl mb-1">
                                         Emotion bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">
@@ -82,7 +81,7 @@ export default function Teams() {
                                         src="https://images.unsplash.com/photo-1634926878768-2a5b3c42f139?fit=clamp&w=400&h=400&q=80" />
                                 </a>
                                 <div className="text-center mt-6">
-                                    <h1 className="text-fonto text-3xl md:text-5xl mb-1">
+                                    <h1 className="text-fonto text-xl md:text-4xl mb-1">
                                         Consciousness bot
                                     </h1>
                                     <div className="text-fontw text-black text-sm md:text-2xl font-light mb-2 subtext">

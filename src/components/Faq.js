@@ -126,7 +126,7 @@ const Faqs = () => {
 
   return (
     <div className="" name="faq" id="faq">
-      <h1 className="text-6xl md:text-8xl text-fonto text-center py-5">
+      <h1 className="text-6xl md:text-6xl text-fonto text-center py-5">
         FAQ
       </h1>
       <div className="py-10">{faqTab}</div>

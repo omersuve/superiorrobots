@@ -39,7 +39,7 @@ html {
   display: inline;
   font-family: digital_techregular, sans-serif;
   letter-spacing: 2px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.867);
   max-width: 120px;
 }
 
@@ -62,11 +62,11 @@ html {
 }
 
 .Main-header {
-  //background-image: url("./assets/img/site-başı-arka-plan.jpg");
+  background-image: url("./assets/img/bcgr.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  min-height: 150vh;
 }
 
 nav ul {
@@ -292,7 +292,7 @@ nav ul {
   display: flex;
   color: white;
   justify-content: center;
-  padding: 10px 30px;
+  padding: 6px 20px;
   border: 2px solid #1da1f2;
   align-items: center;
   border-radius: 25px;
@@ -316,10 +316,11 @@ nav ul {
   display: flex;
   color: white;
   justify-content: center;
-  padding: 10px 30px;
+  padding: 6px 20px;
   background-color: #7289da;
   align-items: center;
   border-radius: 25px;
+  border: 2px solid #5f87ff;
   gap: 8px;
   transition: all 0.3s linear;
 }
@@ -334,12 +335,12 @@ nav ul {
 
 .nav-item .whitepaper {
   text-transform: uppercase;
-  font-weight: bold;
   letter-spacing: 1.5px;
+  font-size: 18px;
 }
 
 .nav-item .whitepaper:hover {
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   color: #2d093d;
   background-color: #fff;
   border-radius: 25px;
@@ -396,48 +397,25 @@ nav ul {
   font-size: xx-large;
 }
 
-.hero {
-  display: flex;
-  height: 400px;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .hero-text {
-  margin-top: 7rem;
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-left: 160px;
+  font-style: italic;
+  margin-top: 30px;
+  opacity: 0.7;
 }
 
-.hero-img {
-  border-radius: 10%;
-  bottom: -15px;
-}
-
-.hero h1 {
-  color: #fff !important;
-  letter-spacing: 2px;
-  font-family: digital_techregular, sans-serif;
-  margin-bottom: 20px;
-  font-size: xx-large;
-}
-
-.hero p {
-  opacity: 0.9;
-  color: #ffffff;
-  font-size: 20px;
+.hero-text p {
+  color: #5c5c5c;
+  font-size: 18px;
   letter-spacing: 1px;
-  text-shadow: 1px 0 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0),
-    0 -1px 0 #fff, 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0),
-    1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  font-weight: bold;
 }
 
-.hero span {
+.hero-text span {
   font-family: sans-serif;
 }
 
@@ -461,37 +439,38 @@ nav ul {
 .faqDetail-a {
   font-family: digital_techregular, sans-serif, "Courier New", Courier,
     monospace;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: 1px;
 }
 
 .faqDetail-a span {
   font-family: sans-serif, "Courier New", Courier, monospace;
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: 1px;
 }
 
 .faqDetail-q {
   font-family: digital_techregular, sans-serif, "Courier New", Courier,
     monospace;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
 }
 
 .faqDetail-q span {
   font-family: sans-serif, "Courier New", Courier, monospace;
   color: #00ffff;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
 }
 
 .mintNow {
-  border: 2px solid #0086c4;
-  color: #fff;
+  border: 2.2px solid #0086c4;
+  color: rgb(73, 73, 73);
   font-weight: 600;
-  width: 180px;
+  width: 150px;
   margin-top: 10%;
+  opacity: 0.8;
 }
 
 .mintNow:hover {
@@ -799,6 +778,10 @@ a {
   margin-bottom: 10rem;
 }
 
+.team-logos {
+  width: 900px;
+}
+
 .flip-box {
   background-color: transparent;
   width: 300px;
@@ -839,20 +822,16 @@ a {
   align-items: center;
 }
 
+.cursor-display {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .text-logo {
     display: block;
     font-family: digital_techregular, sans-serif;
     letter-spacing: 2px;
     font-size: medium;
-  }
-  .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
   }
   .hero-text {
     display: flex;
@@ -861,12 +840,6 @@ a {
     width: 80%;
     justify-content: center;
     align-items: center;
-  }
-  .hero-img {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
   }
   #tokenomics {
     background-image: none;
