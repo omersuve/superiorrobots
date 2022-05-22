@@ -66,7 +66,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 150vh;
+  min-height: 160vh;
 }
 
 nav ul {
@@ -165,8 +165,8 @@ nav ul {
 
 .single-roadmap .title h2 {
   font-family: digital_techregular, sans-serif;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   letter-spacing: 3px;
   margin: 0;
   color: #ffffff;
@@ -174,7 +174,7 @@ nav ul {
 }
 
 .single-roadmap h3 {
-  font-size: 22px;
+  font-size: 20px;
   color: #0095a6 !important;
 }
 
@@ -221,7 +221,7 @@ nav ul {
 .single-roadmap .text p {
   padding: 0.25rem 0;
   max-width: 600px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0;
@@ -264,9 +264,6 @@ nav ul {
 .roadmaps-wrap .arrow-line {
   left: 26px;
   transform: none;
-}
-
-.single-roadmap .number {
 }
 
 .single-roadmap .text {
@@ -351,18 +348,15 @@ nav ul {
   font-weight: bold;
 }
 
-#about {
-  padding: 5rem 5rem 20rem;
-}
-
 #about .img {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  width: 80%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #about .text {
-  max-width: 1300px;
+  max-width: 1500px;
 }
 
 #about h1 {
@@ -774,8 +768,7 @@ a {
 }
 
 #teams .teams-margin {
-  margin-top: 14rem;
-  margin-bottom: 10rem;
+  margin: 2rem;
 }
 
 .team-logos {

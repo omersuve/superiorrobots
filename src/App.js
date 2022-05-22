@@ -17,22 +17,18 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={
-          <div className="App">
-            <header className='Main-header'>
-              <Navbar />
-              <Hero />
-            </header>
-            <About />
-            <Roadmap />
-            <Gallery />
-            <Token />
-            <Teams />
-            <Faq />
-          </div>
-        } />
+          <header className='Main-header'>
+            <Navbar />
+            <Hero />
+          </header>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/token" element={<Token />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/game" element={<WalletPage />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 

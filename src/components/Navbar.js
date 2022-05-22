@@ -17,17 +17,12 @@ export default function Navbar({ fixed }) {
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <button className="mb-1 leading-relaxed flex items-center py-1 whitespace-nowrap uppercase logo" onClick={scrollToHome}>
-              <img src={logo2} className="w-20" />
-              <p className="text-logo text-2xl">SUPERIOR ROBOTS</p>
-            </button>
-            <button
-              className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <FaBars size={"28px"} className="text-white" />
-            </button>
+            <a href="/">
+              <button className="mb-1 leading-relaxed flex items-center py-1 whitespace-nowrap uppercase logo">
+                <img src={logo2} className="w-20" />
+                <p className="text-logo text-2xl">SUPERIOR ROBOTS</p>
+              </button>
+            </a>
           </div>
           <div
             className={
@@ -38,7 +33,15 @@ export default function Navbar({ fixed }) {
               <li className="nav-item pt-14 md:pt-0">
                 <a
                   className="px-3 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
-                  href="#about"
+                  href="/"
+                >
+                  <span>Home</span>
+                </a>
+              </li>
+              <li className="nav-item pt-14 md:pt-0">
+                <a
+                  className="px-3 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
+                  href="/about"
                 >
                   <span>Origin</span>
                 </a>
@@ -47,7 +50,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="#roadmap"
+                  href="/roadmap"
                 >
                   <span>Blueprint</span>
                 </a>
@@ -55,7 +58,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="#tokenomics"
+                  href="/token"
                 >
                   <span className="dolar">$</span>
                   <span >AWR</span>
@@ -64,7 +67,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="#teams"
+                  href="/teams"
                 >
                   <span>Team</span>
                 </a>
@@ -72,7 +75,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="#faq"
+                  href="/faq"
                 >
                   <span>Faq</span>
                 </a>
