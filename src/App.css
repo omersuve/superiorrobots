@@ -398,12 +398,12 @@ nav ul {
   align-items: center;
   margin-left: 160px;
   font-style: italic;
-  margin-top: 30px;
+  margin-top: 20px;
   opacity: 0.7;
 }
 
 .hero-text p {
-  color: #222222;
+  color: #785108;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -459,16 +459,16 @@ nav ul {
 }
 
 .mintNow {
-  border: 2.2px solid #0086c4;
-  color: rgb(22, 22, 22);
+  border: 2.2px solid #615f00;
+  color: rgb(111, 82, 0);
   font-weight: 600;
   width: 150px;
   margin-top: 10%;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .mintNow:hover {
-  background-color: #0086c4;
+  background-color: #c4a000;
   transition: 0.4s;
   opacity: 1;
   transform: translateY(-4px);
