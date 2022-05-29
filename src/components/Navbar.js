@@ -15,31 +15,31 @@ export default function Navbar({ fixed }) {
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
-        <div className="container mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <div className="container mx-auto flex flex-nowrap items-center justify-between">
+          <div className="w-full relative flex justify-between lg:w-full lg:static lg:block lg:justify-start">
             <a>
-              <button className="mb-1 leading-relaxed flex items-center py-1 whitespace-nowrap uppercase">
+              <button className="mb-1 w-full flex items-center py-1 whitespace-nowrap uppercase">
                 <img src={logo2} className="logo" />
-                <p className="text-logo text-2xl">SUPERIOR ROBOTS</p>
+                <p className="text-logo text-2xl w-full">SUPERIOR ROBOTS</p>
               </button>
             </a>
           </div>
           <div
             className={
-              "lg:flex md:flex-grow items-center" +
-              (navbarOpen ? " h-full items-center mx-auto justify-center text-center " : " hidden")
+              "lg:flex md:flex-grow items-center w-auto" +
+              (navbarOpen ? "h-full items-center mx-auto justify-center text-center " : " hidden")
             }>
             <ul className="md:flex md:flex-col lg:flex-row md:list-none lg:ml-auto" >
               <li className="nav-item pt-14 md:pt-0">
                 <a
-                  className="px-3 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
+                  className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
                 >
                   <span className="cursor-display">Home</span>
                 </a>
               </li>
               <li className="nav-item pt-14 md:pt-0">
                 <a
-                  className="px-3 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
+                  className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
                 >
                   <span className="cursor-display">Origin</span>
                 </a>
@@ -95,7 +95,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item ml-3">
                 <a className="text-white px-5 py-4 whitepaper" href="https://superiorrobots.medium.com/" target="_blank">
-                  WhitePaper
+                  <span>WhitePaper</span>
                 </a>
               </li>
             </ul>

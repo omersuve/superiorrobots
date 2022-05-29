@@ -883,3 +883,7 @@ a {
     display: none;
   }
 }
+@media (max-width: 1224px) and (min-width: 769px) {
+  
+}
+
