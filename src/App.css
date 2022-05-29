@@ -35,6 +35,10 @@ html {
   font-family: "Arial Narrow Bold", sans-serif;
 }
 
+.logo {
+  width: 7rem;
+}
+
 .text-logo {
   display: inline;
   font-family: digital_techregular, sans-serif;
@@ -820,20 +824,38 @@ a {
 }
 
 @media (max-width: 768px) {
-  .text-logo {
+  .logo {
     display: block;
-    font-family: digital_techregular, sans-serif;
-    letter-spacing: 2px;
-    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
   }
+  .text-logo {
+    display: none;
+  }
+ 
+  .hero-text p {
+    font-size: small;
+    margin: none;
+  }
+
   .hero-text {
+    margin: 0;
+    padding: 10%;
+    margin-bottom: 50px;
+    position: absolute;
     display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    bottom: 0;
+    width:100%;
+    text-align:center;
   }
+
+  .mintNow {
+    width: 100px;
+    font-size: smaller;
+  }
+
   #tokenomics {
     background-image: none;
     background-color: #003d59;
@@ -843,6 +865,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .Main-header {
+    min-height: 60vh;
   }
 }
 

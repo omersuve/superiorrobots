@@ -18,8 +18,8 @@ export default function Navbar({ fixed }) {
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a>
-              <button className="mb-1 leading-relaxed flex items-center py-1 whitespace-nowrap uppercase logo">
-                <img src={logo2} className="w-20" />
+              <button className="mb-1 leading-relaxed flex items-center py-1 whitespace-nowrap uppercase">
+                <img src={logo2} className="logo" />
                 <p className="text-logo text-2xl">SUPERIOR ROBOTS</p>
               </button>
             </a>
