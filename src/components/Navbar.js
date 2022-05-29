@@ -57,7 +57,7 @@ export default function Navbar({ fixed }) {
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                 >
                   <span className="dolar cursor-display">$</span>
-                  <span className="cursor-display">AWR</span>
+                  <span className="cursor-display">SR</span>
                 </a>
               </li>
               <li className="nav-item pt-2 md:pt-0">
