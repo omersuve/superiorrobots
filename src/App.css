@@ -403,7 +403,7 @@ nav ul {
 }
 
 .hero-text p {
-  color: #5c5c5c;
+  color: #222222;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -460,7 +460,7 @@ nav ul {
 
 .mintNow {
   border: 2.2px solid #0086c4;
-  color: rgb(73, 73, 73);
+  color: rgb(22, 22, 22);
   font-weight: 600;
   width: 150px;
   margin-top: 10%;
