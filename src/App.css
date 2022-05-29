@@ -47,6 +47,10 @@ html {
   max-width: 120px;
 }
 
+.logo-mobile{
+  display: none;
+}
+
 .text-fonto {
   font-family: cursive;
   color: #b3a198;
@@ -825,13 +829,16 @@ a {
 
 @media (max-width: 768px) {
   .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    display: none;
   }
+
   .text-logo {
     display: none;
+  }
+
+  .logo-mobile {
+    display: flex;
+    width: 30%;
   }
  
   .hero-text p {

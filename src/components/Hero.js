@@ -1,6 +1,9 @@
+import logo2 from '../assets/img/logo2.png'
+
 export default function Hero() {
 	return (
 		<div className="hero-text">
+			<img src={logo2} className="logo-mobile" />
 			<div>
 				<p className="text-base md:px-25">
 
