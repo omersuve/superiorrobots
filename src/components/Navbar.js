@@ -17,7 +17,7 @@ export default function Navbar({ fixed }) {
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a href="/">
+            <a>
               <button className="mb-1 leading-relaxed flex items-center py-1 whitespace-nowrap uppercase logo">
                 <img src={logo2} className="w-20" />
                 <p className="text-logo text-2xl">SUPERIOR ROBOTS</p>
@@ -33,51 +33,45 @@ export default function Navbar({ fixed }) {
               <li className="nav-item pt-14 md:pt-0">
                 <a
                   className="px-3 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
-                  href="/"
                 >
-                  <span>Home</span>
+                  <span className="cursor-display">Home</span>
                 </a>
               </li>
               <li className="nav-item pt-14 md:pt-0">
                 <a
                   className="px-3 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
-                  href="/about"
                 >
-                  <span>Origin</span>
+                  <span className="cursor-display">Origin</span>
                 </a>
               </li>
 
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="/roadmap"
                 >
-                  <span>Blueprint</span>
+                  <span className="cursor-display">Blueprint</span>
                 </a>
               </li>
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="/token"
                 >
-                  <span className="dolar">$</span>
-                  <span >AWR</span>
+                  <span className="dolar cursor-display">$</span>
+                  <span className="cursor-display">AWR</span>
                 </a>
               </li>
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="/teams"
                 >
-                  <span>Team</span>
+                  <span className="cursor-display">Team</span>
                 </a>
               </li>
               <li className="nav-item pt-2 md:pt-0">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
-                  href="/faq"
                 >
-                  <span>Faq</span>
+                  <span className="cursor-display">Faq</span>
                 </a>
               </li>
               <li className="nav-item pt-2 md:pt-0">
