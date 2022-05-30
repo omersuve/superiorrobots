@@ -36,18 +36,20 @@ html {
 }
 
 .logo {
-  width: 6rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 8%;
+  opacity: 80%;
 }
 
 .text-logo {
   display: inline;
   font-family: digital_techregular, sans-serif;
-  letter-spacing: 2px;
-  color: rgba(255, 255, 255, 0.867);
-  max-width: 120px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.622);
 }
 
-.logo-mobile{
+.logo-mobile {
   display: none;
 }
 
@@ -63,10 +65,6 @@ html {
 
 .background-road {
   background-color: #27130acb;
-}
-
-.navbarbg {
-  background-color: #644622;
 }
 
 .Main-header {
@@ -286,11 +284,37 @@ nav ul {
 }
 
 .nav-item span {
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
+  font-size: large;
 }
 
-.nav-item.twitter {
-  margin-left: 15px;
+.nav-item {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.nav-tabs {
+  border: 2px solid #615f003a;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #615f0028;
+}
+
+.nav-tabs:hover {
+  background-color: #615f00;
+}
+
+.twitter {
+  font-size: 20px;
+}
+
+.discord {
+  font-size: 20px;
+} 
+
+.instagram {
+  font-size: 20px;
 }
 
 .nav-item.twitter a {
@@ -298,23 +322,33 @@ nav ul {
   color: white;
   justify-content: center;
   padding: 6px 20px;
-  border: 2px solid #1da1f2;
+  border: 2px solid #615f0044;
   align-items: center;
   border-radius: 25px;
   gap: 8px;
   transition: all 0.3s linear;
+  background-color: #1da0f22f;
 }
 
 .nav-item.twitter a:hover {
   background-color: #1da1f2;
 }
 
-.nav-item.twitter a span {
-  font-size: 18px;
+.nav-item.instagram a {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 6px 20px;
+  border: 2px solid #615f0044;
+  align-items: center;
+  border-radius: 25px;
+  gap: 8px;
+  transition: all 0.3s linear;
+  background-color: #db6daf39;
 }
 
-.nav-item.discord {
-  margin-left: 15px;
+.nav-item.instagram a:hover {
+  background-color: #db6daf;
 }
 
 .nav-item.discord a {
@@ -322,20 +356,17 @@ nav ul {
   color: white;
   justify-content: center;
   padding: 6px 20px;
-  background-color: #7289da;
+  background-color: #7289da00;
   align-items: center;
   border-radius: 25px;
-  border: 2px solid #5f87ff;
+  border: 2px solid #615f0044;
   gap: 8px;
   transition: all 0.3s linear;
+  background-color: #7289da39;
 }
 
 .nav-item.discord a:hover {
-  background-color: #1da1f2;
-}
-
-.nav-item.discord a span {
-  font-size: 18px;
+  background-color: #7289da;
 }
 
 .nav-item .whitepaper {
@@ -467,12 +498,13 @@ nav ul {
 }
 
 .mintNow {
-  border: 2.2px solid #615f00;
+  border: 2.2px solid #615f007d;
   color: rgb(111, 82, 0);
   font-weight: 600;
   width: 150px;
   margin-top: 10%;
   opacity: 0.9;
+  background-color: #615f0032;
 }
 
 .mintNow:hover {
@@ -783,6 +815,13 @@ a {
   width: 900px;
 }
 
+.logo-and-text {
+  background-color: #615f001e;
+  border: 2px solid #615f0000;
+  border-radius: 30px;
+  margin: 15px;
+}
+
 .flip-box {
   background-color: transparent;
   width: 300px;
@@ -840,7 +879,7 @@ a {
     display: flex;
     width: 30%;
   }
- 
+
   .hero-text p {
     font-size: x-small;
     margin: 0;
@@ -854,8 +893,8 @@ a {
     display: flex;
     text-align: center;
     bottom: 0;
-    width:100%;
-    text-align:center;
+    width: 100%;
+    text-align: center;
   }
 
   .mintNow {
@@ -884,6 +923,4 @@ a {
   }
 }
 @media (max-width: 1224px) and (min-width: 769px) {
-  
 }
-
