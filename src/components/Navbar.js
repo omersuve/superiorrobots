@@ -20,7 +20,7 @@ export default function Navbar({ fixed }) {
             <a>
               <button className="flex items-center">
                 <img src={blacklogo} className="logo" />
-                <p className="text-logo text-2xl">SUPERIOR ROBOTS</p>
+                <p className="text-logo text-xl">SUPERIOR ROBOTS</p>
               </button>
             </a>
           </div>
