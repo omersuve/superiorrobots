@@ -14,7 +14,7 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="relative flex items-center justify-between">
+      <nav className="relative flex items-center justify-between mr-10">
         <div className="container mx-auto flex items-center justify-between">
           <div className="logo-and-text">
             <a>
