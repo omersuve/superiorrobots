@@ -955,7 +955,9 @@ a {
     align-items: center;
   }
   .Main-header {
-    min-height: 50vh;
+    min-height: 46vh;
+    background-size: cover;
+    min-width: 100%;
   }
 }
 
