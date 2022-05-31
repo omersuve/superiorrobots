@@ -71,8 +71,9 @@ html {
   background-image: url("./assets/img/bcgr.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  min-height: 160vh;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 nav ul {
@@ -289,8 +290,8 @@ nav ul {
 }
 
 .nav-item {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .nav-tabs {
@@ -819,7 +820,7 @@ a {
   background-color: #615f001e;
   border: 2px solid #615f0000;
   border-radius: 30px;
-  margin: 15px;
+  margin: 18px;
 }
 
 .flip-box {
