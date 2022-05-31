@@ -290,16 +290,17 @@ nav ul {
 }
 
 .nav-item {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .nav-tabs {
   border: 2px solid #615f003a;
   border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
   background-color: #615f0028;
+  cursor: pointer;
 }
 
 .nav-tabs:hover {
