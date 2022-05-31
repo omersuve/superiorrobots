@@ -47,6 +47,7 @@ html {
   font-family: digital_techregular, sans-serif;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.622);
+  font-weight: bold;
 }
 
 .logo-mobile {
@@ -290,15 +291,15 @@ nav ul {
 }
 
 .nav-item {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .nav-tabs {
   border: 2px solid #615f003a;
   border-radius: 10px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #615f0028;
   cursor: pointer;
 }
@@ -437,7 +438,7 @@ nav ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-left: 160px;
+  margin-left: 148px;
   font-style: italic;
   opacity: 0.7;
 }
@@ -873,13 +874,63 @@ a {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1439px) {
+  .logo-and-text {
+    background: none;
+    margin: 0;
+  }
+
+  .nav-item {
+    font-size: small;
+    margin: 3px;
+  }
+
+  .nav-item.twitter a {
+    padding: 10px;
+  }
+
+  .nav-item.discord a {
+    padding: 10px;
+  }
+
+  .nav-item.instagram a {
+    padding: 10px;
+  }
+
+  .nav-tabs {
+    padding: 0;
+  }
+
+  .hero-text p {
+    font-size: 11px;
+    margin: 0px;
+    position: relative;
+    bottom: 20px;
+    left: -28px;
+  }
+
+  .mintNow {
+    margin: 0;
+    font-size: smaller;
+    padding: 0;
+    width: 100px;
+  }
+}
+
+
+@media (max-width: 1023px) {
   .logo-and-text {
     background: none;
   }
 
+  .logo-mobile {
+    display: flex;
+    width: 10%;
+    max-width: 80px;
+  }
+
   .Main-header {
-    min-height: 60vh;
+    min-height: 50vh;
   }
 
   .text-logo {
@@ -889,9 +940,13 @@ a {
   .hero-text {
     margin: 0;
     position: absolute;
-    bottom: -220px;
+    bottom: -288px;
     width: 100%;
     text-align: center;
+  }
+
+  .hero-text p {
+    position: inherit;
   }
 
   .mobile-logo-text {
@@ -899,29 +954,33 @@ a {
     font-size: larger;
     color: rgb(148, 86, 0);
   }
+
+  .mintNow {
+    margin-top: 20px;
+  }
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .logo {
     display: none;
   }
-
+  
   .logo-and-text {
     display: none;
   }
-
+  
   .mobile-logo-text {
     display: flex;
     color: rgb(148, 86, 0);
   }
-
+  
   .logo-mobile {
     display: flex;
-    width: 30%;
-    max-width: 120px;
+    width: 20%;
+    max-width: 80px;
   }
-
+  
   .hero-text p {
     font-size: x-small;
     margin: 0;
@@ -930,11 +989,11 @@ a {
   .hero-text {
     margin: 0;
     padding: 3%;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: absolute;
     display: flex;
     text-align: center;
-    bottom: -370px;
+    bottom: -350px;
     width: 100%;
     text-align: center;
   }
@@ -943,21 +1002,37 @@ a {
     width: 100px;
     font-size: smaller;
   }
-
+  
   #tokenomics {
     background-image: none;
     background-color: #003d59;
   }
+
   .flip-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
+  .Main-header {
+    min-height: 50vh;
+  }
+
+  .hero-text {
+    bottom: -320px;
+  }
+}
+
+@media (max-width: 424px) {
+  .Main-header {
+    min-height: 46vh;
+  }
+}
+
+@media (max-width: 374px) {
   .Main-header {
     min-height: 40vh;
-    background-size: cover;
-    min-width: 100%;
   }
 }
 
