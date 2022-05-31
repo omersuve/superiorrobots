@@ -1,9 +1,9 @@
-import logo2 from '../assets/img/logo2.png'
+import logo from '../assets/img/logo.png'
 
 export default function Hero() {
 	return (
 		<div className="hero-text">
-			<img src={logo2} className="logo-mobile" alt='logo' />
+			<img src={logo} className="logo-mobile" alt='logo' />
 			<h1 className='mobile-logo-text'>Superior Robots</h1><br></br>
 			<div>
 				<p className="text-base md:px-25">

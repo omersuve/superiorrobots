@@ -1,13 +1,7 @@
 import React from "react";
-import { FaBars, FaDiscord, FaInstagram } from 'react-icons/fa';
+import { FaDiscord, FaInstagram } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
-import logo2 from '../assets/img/logo2.png'
-import blacklogo from '../assets/img/output-onlinepngtools2.jpeg'
-
-
-const scrollToHome = () => {
-  window.scrollTo({ top: 0, behaviour: "smooth" })
-}
+import blacklogo from '../assets/img/logo.png'
 
 
 export default function Navbar({ fixed }) {
@@ -19,7 +13,7 @@ export default function Navbar({ fixed }) {
           <div className="logo-and-text">
             <a>
               <button className="flex items-center">
-                <img src={blacklogo} className="logo" />
+                <img src={blacklogo} className="logo" alt="logo" />
                 <p className="text-logo text-xl">SUPERIOR ROBOTS</p>
               </button>
             </a>
