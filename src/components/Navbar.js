@@ -11,7 +11,7 @@ export default function Navbar({ fixed }) {
       <nav className="relative flex items-center justify-between mr-10">
         <div className="container mx-auto flex items-center justify-between">
           <div className="logo-and-text">
-            <a>
+            <a href="/">
               <button className="flex items-center">
                 <img src={blacklogo} className="logo" alt="logo" />
                 <p className="text-logo text-xl">SUPERIOR ROBOTS</p>
@@ -27,6 +27,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item nav-tabs">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
+                  href="/"
                 >
                   <span className="cursor-display">Home</span>
                 </a>
@@ -42,6 +43,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item nav-tabs">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
+                  href="https://docs.superiorrobots.xyz/"
                 >
                   <span className="cursor-display">Blueprint</span>
                 </a>
@@ -71,6 +73,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item nav-tabs">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
+                  href="faq"
                 >
                   <span className="cursor-display">Faq</span>
                 </a>
