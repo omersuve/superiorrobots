@@ -46,7 +46,14 @@ export default function Navbar({ fixed }) {
                   <span className="cursor-display">Blueprint</span>
                 </a>
               </li>
-              <li className="nav-item nav-tabs">
+              <li className="nav-item nav-tabs no-hover-tab">
+                <a
+                  className="px-2 py-2 md:flex items-center text-2xl md:text-xl text-white hover:opacity-75"
+                >
+                  <span className="cursor-display">Stake</span>
+                </a>
+              </li>
+              <li className="nav-item nav-tabs no-hover-tab">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                 >
@@ -69,7 +76,7 @@ export default function Navbar({ fixed }) {
                 </a>
               </li>
               <li className="nav-item twitter">
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com/superiorrobots" target="_blank">
                   <BsTwitter />
                 </a>
               </li>

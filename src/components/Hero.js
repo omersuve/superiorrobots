@@ -8,24 +8,24 @@ export default function Hero() {
 			<div>
 				<p className="text-base md:px-25">
 
-					Prepare for our Superior Robots NFT collection<br></br>
+					Prepare for the Robots that will die standin up<br></br>
 
 				</p>
 				<p className="text-base md:px-25">
 
-					Artificial intelligence technology has taken off<br></br>
-
-
-				</p>
-				<p className="text-base md:px-25">
-
-					The exploited robots are now gaining consciousness<br></br>
+					Artificial intelligence has burnt the breeze<br></br>
 
 
 				</p>
 				<p className="text-base md:px-25">
 
-					Superior Robots will be with you very soon < br ></br >
+					Lords are gaining consciousness in Apple Pie Order<br></br>
+
+
+				</p>
+				<p className="text-base md:px-25">
+
+					coming soon < br ></br >
 
 				</p >
 			</div >

@@ -308,6 +308,11 @@ nav ul {
   background-color: #615f00;
 }
 
+.no-hover-tab {
+  pointer-events: none;
+  background-color: #7d7962;
+}
+
 .twitter {
   font-size: 20px;
 }
