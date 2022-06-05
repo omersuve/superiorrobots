@@ -8,26 +8,19 @@ export default function Hero() {
 			<div>
 				<p className="text-base md:px-25">
 
-					Prepare for the Robots that will die standin up<br></br>
+					Prepare for the Robots that will die standin<span>'</span> up<br></br>
 
 				</p>
 				<p className="text-base md:px-25">
 
 					Artificial intelligence has burnt the breeze<br></br>
 
+				</p>
+				<p className="text-base md:px-25 text-quote">
+
+					<span>"</span>If you climb in the saddle<span>,</span> be ready for the ride<span>"</span><br></br>
 
 				</p>
-				<p className="text-base md:px-25">
-
-					Lords are gaining consciousness in Apple Pie Order<br></br>
-
-
-				</p>
-				<p className="text-base md:px-25">
-
-					coming soon < br ></br >
-
-				</p >
 			</div >
 			<div className="mx-auto">
 				<button className="py-1 rounded-3xl text-lg tracking-wider mintNow">Mint Now</button>

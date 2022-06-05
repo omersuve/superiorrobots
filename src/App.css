@@ -453,10 +453,17 @@ nav ul {
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: bold;
+  text-align: center;
 }
 
 .hero-text span {
   font-family: sans-serif;
+}
+
+p.text-quote {
+  color: rgba(68, 50, 10, 0.842);
+  font-size: large;
+  margin-top: 5px;
 }
 
 #faq h1 {
