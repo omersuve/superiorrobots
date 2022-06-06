@@ -4,6 +4,13 @@ import { BsTwitter } from 'react-icons/bs';
 import blacklogo from '../assets/img/logo.png'
 import rob from '../assets/img/rob.png'
 import sup from '../assets/img/sup.png'
+import home from '../assets/img/home.png'
+import origin from '../assets/img/origin.png'
+import blueprint from '../assets/img/blueprint.png'
+import stake from '../assets/img/stake.png'
+import supr from '../assets/img/supr.png'
+import team from '../assets/img/team.png'
+import faq from '../assets/img/faq.png'
 
 
 export default function Navbar({ fixed }) {
@@ -29,50 +36,49 @@ export default function Navbar({ fixed }) {
               (navbarOpen ? "h-full items-center mx-auto justify-center text-center " : " hidden")
             }>
             <ul className="md:flex md:flex-col lg:flex-row md:list-none lg:ml-auto" >
-              <li className="nav-item nav-tabs">
+              <li className="nav-item nav-tabs tab-home">
                 <a
-                  className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
+                  className="px-2 py-2 md:flex items-center hover:opacity-75"
                   href="/"
                 >
-                  <span className="cursor-display">Home</span>
+                  <img src={home} className="cursor-display" />
                 </a>
               </li>
-              <li className="nav-item nav-tabs">
+              <li className="nav-item nav-tabs tab-origin">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75 text-center"
                 >
-                  <span className="cursor-display">Origin</span>
+                  <img src={origin} className="cursor-display" />
                 </a>
               </li>
 
-              <li className="nav-item nav-tabs">
+              <li className="nav-item nav-tabs tab-blueprint">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                   href="https://docs.superiorrobots.xyz/"
                 >
-                  <span className="cursor-display">Blueprint</span>
+                  <img src={blueprint} className="cursor-display" />
                 </a>
               </li>
               <li className="nav-item nav-tabs no-hover-tab">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl text-white hover:opacity-75"
                 >
-                  <span className="cursor-display">Stake</span>
+                  <img src={stake} className="cursor-display tab-stake" />
                 </a>
               </li>
               <li className="nav-item nav-tabs no-hover-tab">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                 >
-                  <span className="dolar cursor-display">$</span>
-                  <span className="cursor-display">SUPR</span>
+                  <img src={supr} className="cursor-display tab-supr" />
                 </a>
               </li>
               <li className="nav-item nav-tabs">
                 <a
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                 >
-                  <span className="cursor-display">Team</span>
+                  <img src={team} className="cursor-display tab-team" />
                 </a>
               </li>
               <li className="nav-item nav-tabs">
@@ -80,7 +86,7 @@ export default function Navbar({ fixed }) {
                   className="px-2 py-2 md:flex items-center text-2xl md:text-xl  text-white hover:opacity-75"
                   href="faq"
                 >
-                  <span className="cursor-display">Faq</span>
+                  <img src={faq} className="cursor-display tab-faq" />
                 </a>
               </li>
               <li className="nav-item twitter">

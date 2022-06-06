@@ -32,7 +32,9 @@ html {
 
 .dolar {
   font-weight: lighter;
-  font-family: "Arial Narrow Bold", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  font-weight: bold;
 }
 
 .logo {
@@ -52,6 +54,28 @@ html {
   width: 11rem;
   margin: 4px;
   margin-left: 0px;
+}
+
+.tab-home {
+  width: 85px;
+}
+.tab-origin {
+  width: 105px;
+}
+.tab-blueprint {
+  width: 145px;
+}
+.tab-stake {
+  width: 60px;
+}
+.tab-supr {
+  width: 50px;
+}
+.tab-team {
+  width: 50px;
+}
+.tab-faq {
+  width: 35px;
 }
 
 .text-logo {
@@ -322,19 +346,19 @@ nav ul {
 
 .no-hover-tab {
   pointer-events: none;
-  background-color: #36342c;
+  background-color: #8b8675;
 }
 
 .twitter {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .discord {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .instagram {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .nav-item.twitter a {
