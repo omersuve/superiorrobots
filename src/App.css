@@ -473,7 +473,7 @@ nav ul {
 }
 
 p.text-quote {
-  color: rgba(68, 50, 10, 0.842);
+  color: rgba(103, 77, 21, 0.842);
   font-size: large;
   margin-top: 5px;
 }
@@ -912,6 +912,14 @@ a {
     margin: 0;
   }
 
+  .sup{
+    width: 10rem;
+  }
+
+  .rob{
+    width: 10rem;
+  }
+
   .nav-item {
     font-size: small;
     margin: 3px;
@@ -947,6 +955,12 @@ a {
     padding: 0;
     width: 100px;
   }
+
+  .allrights {
+    font-size: smaller;
+    left: 60px;
+    color: rgb(255, 238, 162);
+  }
 }
 
 
@@ -955,9 +969,17 @@ a {
     background: none;
   }
 
+  .sup{
+    display: none;
+  }
+
+  .rob{
+    display: none;
+  }
+
   .logo-mobile {
     display: flex;
-    width: 10%;
+    width: 8%;
     max-width: 80px;
   }
 
@@ -972,7 +994,7 @@ a {
   .hero-text {
     margin: 0;
     position: absolute;
-    bottom: -288px;
+    bottom: -258px;
     width: 100%;
     text-align: center;
   }
@@ -988,8 +1010,13 @@ a {
   }
 
   .mintNow {
-    margin-top: 20px;
+    margin-top: 10px;
   }
+
+  .allrights {
+    color: #615f00;
+  }
+  
 }
 
 
@@ -1031,7 +1058,7 @@ a {
   }
 
   .mintNow {
-    width: 100px;
+    width: 90px;
     font-size: smaller;
   }
   
@@ -1052,7 +1079,12 @@ a {
   }
 
   .hero-text {
-    bottom: -320px;
+    bottom: -285px;
+  }
+
+  .allrights {
+    left: 135px;
+    font-size: x-small;
   }
 }
 
@@ -1060,11 +1092,19 @@ a {
   .Main-header {
     min-height: 46vh;
   }
+
+  .allrights {
+    left: 110px;
+  }
 }
 
 @media (max-width: 374px) {
   .Main-header {
     min-height: 40vh;
+  }
+
+  .allrights {
+    left: 80px;
   }
 }
 
