@@ -1,4 +1,5 @@
 import logo from '../assets/img/logo.png'
+import { FaCopyright } from 'react-icons/fa';
 
 export default function Hero() {
 	return (
@@ -24,6 +25,10 @@ export default function Hero() {
 			</div >
 			<div className="mx-auto">
 				<button className="py-1 rounded-3xl text-lg tracking-wider mintNow">Mint Now</button>
+			</div>
+			<div className='allrights'>
+				<div className="flex justify-center items-center"><span><FaCopyright size={"16px"} /></span> 2022<span>,</span> Superior Robots</div>
+				<div className="flex justify-center items-center">All rights reserved<span>.</span></div>
 			</div>
 		</div>
 	)

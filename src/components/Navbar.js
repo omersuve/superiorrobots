@@ -2,6 +2,8 @@ import React from "react";
 import { FaDiscord, FaInstagram } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import blacklogo from '../assets/img/logo.png'
+import rob from '../assets/img/rob.png'
+import sup from '../assets/img/sup.png'
 
 
 export default function Navbar({ fixed }) {
@@ -14,7 +16,10 @@ export default function Navbar({ fixed }) {
             <a href="/">
               <button className="flex items-center">
                 <img src={blacklogo} className="logo" alt="logo" />
-                <p className="text-logo text-xl">SUPERIOR ROBOTS</p>
+                <div className="column mr-5">
+                  <img src={sup} className="sup" alt="sup" />
+                  <img src={rob} className="rob" alt="rob" />
+                </div>
               </button>
             </a>
           </div>

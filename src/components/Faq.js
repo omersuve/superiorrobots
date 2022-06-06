@@ -148,8 +148,8 @@ const Faqs = () => {
               <FaDiscord size={"32px"} />
             </a>
           </div>
-          <div className="text-white pt-5 flex justify-center items-center gap-2">Copyright <span><FaCopyright size={"16px"} /></span> 2022, Superior Robots NFT Collection</div>
-          <div className="text-white pt-5 flex justify-center items-center gap-2">All rights reserved.</div>
+          <div className="text-white pt-5 flex justify-center items-center"><span><FaCopyright size={"20px"} /></span>  2022, Superior Robots NFT Collection</div>
+          <div className="text-white pt-5 flex justify-center items-center">All rights reserved.</div>
         </div>
       </div>
     </div>
