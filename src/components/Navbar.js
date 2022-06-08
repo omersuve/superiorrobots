@@ -94,13 +94,13 @@ export default function Navbar({ fixed }) {
                   <BsTwitter />
                 </a>
               </li>
-              <li className="nav-item discord">
-                <a href="https://discord.com" target="_blank">
+              <li className="nav-item discord cursor-display">
+                <a>
                   <FaDiscord />
                 </a>
               </li>
-              <li className="nav-item instagram">
-                <a href="https://instagram.com" target="_blank">
+              <li className="nav-item instagram cursor-display">
+                <a>
                   <FaInstagram />
                 </a>
               </li>
