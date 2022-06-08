@@ -95,7 +95,7 @@ const Faqs = () => {
 
     return (
 
-      <div className="w-full mx-auto container justify-center items-center p-8">
+      <div className="w-full mx-auto container justify-center items-center p-8 faq-bg">
         <div className="items-center justify-center mx-auto">
           <div className="faq mt-2" key={faqQuestions.id} >
             <h2>
