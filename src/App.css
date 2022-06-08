@@ -18,7 +18,7 @@
 
 body {
   /*background-image: url("./assets/img/background-img.png");*/
-  background-color: #000;
+  background-color: #362d00;
   font-family: digital_techregular, sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -939,6 +939,7 @@ a {
 }
 
 @media (max-width: 1439px) {
+
   .logo-and-text {
     background: none;
     margin: 0;
@@ -996,6 +997,10 @@ a {
 
 
 @media (max-width: 1023px) {
+  body {
+    background-color: #000000;
+  }
+
   .logo-and-text {
     background: none;
   }
