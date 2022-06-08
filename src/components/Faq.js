@@ -136,7 +136,7 @@ const Faqs = () => {
         <div className="py-10">{faqTab}</div>
 
         <div className="py-10 mt-20 mx-auto text-center">
-          <h1 className="text-center text-fonto text-2xl md:text-4xl pb-5">FOLLOW US!</h1>
+          <h1 className="text-center text-fonto md:text-5xl pb-5 ml-2">FOLLOW US!</h1>
           <div className="flex text-center justify-center text-center text-white items-center mx-auto">
             <a className="pr-5 hover:text-cyan-400" href="https://twitter.com/home" target="_blank">
               <FaTwitter size={"32px"} />
@@ -148,8 +148,8 @@ const Faqs = () => {
               <FaDiscord size={"32px"} />
             </a>
           </div>
-          <div className="text-white pt-5 flex justify-center items-center"><span><FaCopyright size={"20px"} /></span>  2022, Superior Robots NFT Collection</div>
-          <div className="text-white pt-5 flex justify-center items-center">All rights reserved.</div>
+          <div className="text-white pt-2 flex justify-center items-center allrights-faq mt-3"><span><FaCopyright size={"20px"} /></span>&nbsp;2022<span>,&nbsp;</span>Superior Robots</div>
+          <div className="text-white pt-2 flex justify-center items-center allrights-faq">All rights reserved<span>.</span></div>
         </div>
       </div>
     </div>

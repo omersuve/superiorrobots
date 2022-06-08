@@ -24,7 +24,7 @@ export default function Hero() {
 				</p>
 			</div >
 			<div className="mx-auto">
-				<button className="py-1 rounded-3xl text-lg tracking-wider mintNow">Mint Now</button>
+				<button className="py-1 rounded-3xl text-lg tracking-wider mintNow">Coming soon</button>
 			</div>
 			<div className='allrights'>
 				<div className="flex justify-center items-center"><span><FaCopyright size={"16px"} /></span> 2022<span>,</span> Superior Robots</div>

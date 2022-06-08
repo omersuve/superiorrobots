@@ -38,7 +38,7 @@ html {
 }
 
 .logo {
-  width: 3rem;
+  width: 4rem;
   border-radius: 50%;
   margin: 5%;
   opacity: 80%;
@@ -46,36 +46,36 @@ html {
 
 .rob {
   width: 8rem;
-  margin: 4px;
+  margin: 8px;
   margin-left: 0px;
 }
 
 .sup{
-  width: 11rem;
-  margin: 4px;
+  width: 8rem;
+  margin: 8px;
   margin-left: 0px;
 }
 
 .tab-home {
-  width: 85px;
+  width: 80px;
 }
 .tab-origin {
-  width: 105px;
+  width: 87px;
 }
 .tab-blueprint {
-  width: 145px;
+  width: 132px;
 }
 .tab-stake {
-  width: 60px;
+  width: 55px;
 }
 .tab-supr {
-  width: 50px;
+  width: 40px;
 }
 .tab-team {
-  width: 50px;
+  width: 49px;
 }
 .tab-faq {
-  width: 35px;
+  width: 33px;
 }
 
 .text-logo {
@@ -504,14 +504,14 @@ p.text-quote {
 
 #faq h1 {
   letter-spacing: 2px;
-  color: #00ffff;
+  color: #e3dc00;
   font-family: digital_techregular, sans-serif;
 }
 
 .faq span {
   font-size: 2rem;
   font-family: digital_techregular, sans-serif;
-  color: #00ffff;
+  color: #e3dc00;
 }
 
 .faq .copyright > span {
@@ -542,7 +542,7 @@ p.text-quote {
 
 .faqDetail-q span {
   font-family: sans-serif, "Courier New", Courier, monospace;
-  color: #00ffff;
+  color: #e3dc00;
   font-size: 1.4rem;
   letter-spacing: 1px;
 }
@@ -921,13 +921,21 @@ a {
   cursor: pointer;
 }
 
-.allrights{
+.allrights {
   position: fixed;
   bottom: 30px;
   left: 340px;
   font-weight: 500;
   color: rgb(255, 238, 162);
   letter-spacing: 2px;
+}
+
+.allrights-faq {
+  font-size: medium;
+}
+
+.allrights-faq span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 1439px) {
